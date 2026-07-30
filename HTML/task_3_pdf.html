@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <p>
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+            </p>
+            <p>
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="you@example.com" required>
+            </p>
+            <p>
+                <label for="dob">Date of Birth</label>
+                <input type="date" required>
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input type="tel" placeholder="10-digit number">
+            </p>
+            <p>
+                <label for="gender">Gender</label>
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Female
+            </p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><b>Academic Details</b></legend>
+            <p>
+                <label for="grade">Grade</label>
+                <select name="grade" id="grade">
+                    <option value="">Select Grade</option>
+                    <option value="1">Grade 1</option>
+                    <option value="2">Grade 2</option>
+                    <option value="3">Grade 3</option>
+                    <option value="4">Grade 4</option>
+                    <option value="5">Grade 5</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="subjects">Preferred Subjects</label>
+                <select name="subjects" id="subjects">
+                    <option value="">Select Subjects</option>
+                    <option value="math">Mathematics</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                    <option value="arts">Arts</option>
+                    <option value="cs">Computer Science</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="address">Address</label><br><br>
+                <textarea name="address" id="address" placeholder="Enter your full address"></textarea>
+            </p>
+        </fieldset>
+
+        <p>
+            <button type="button">Register</button>
+            <button type="reset">Clear Form</button>
+        </p>
+    </form>
+</body>
+</html>
