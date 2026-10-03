@@ -53,3 +53,14 @@ if(balance>0){
     console.log("withdrawal failed")
 }
 }
+
+let username ="admin"
+let password ="admin"
+if(username =="admin"){
+    if(password=="admin@123"){
+        console.log("login success")
+    }else{
+        console.log("Login not successful")
+    }
+    
+}
